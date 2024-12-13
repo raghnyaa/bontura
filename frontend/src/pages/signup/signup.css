@@ -1,0 +1,157 @@
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-left: 10%;
+  background: linear-gradient(
+    119.73deg,
+    #fafafa 27.62%,
+    #fffd92 69.48%,
+    #ffdcad 88.72%
+  );
+}
+
+h1 {
+  font-size: 65px;
+}
+
+p {
+  font-size: 24px;
+  color: #696969;
+}
+
+.margin-p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.brand-color {
+  color: #ad6b12;
+}
+.sans-font {
+  font-family: "Source Sans 3", sans-serif;
+}
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+}
+
+.cta-txt {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafafa;
+  border-radius: 50px;
+  height: 761px;
+  width: 517px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.14);
+}
+
+.img-logo {
+  height: 45px;
+  width: 45px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #222222;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+.small-font {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 16px;
+  color: #222222;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+input {
+  height: 20px;
+  width: 270px;
+  border: 1px solid #acacac; /* Light gray border */
+  border-radius: 9px;
+  padding: 10px; /* Optional: Adds some padding inside the input */
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #ad6b12; /* Change border color on focus for better visibility */
+  outline: none; /* Remove the default outline */
+}
+
+.continue-btn {
+  border-radius: 10px;
+  background-color: #ad6b12;
+  color: #fafafa;
+  font-size: 18px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.continue-btn:hover {
+  background-color: #e18f23;
+}
+
+.divider {
+  font-size: 15px;
+  font-weight: 800;
+  color: #767676;
+  margin-bottom: 10px;
+}
+
+.ctn-google {
+  border-radius: 10px;
+  background-color: #fafafa;
+  color: #777777;
+  font-size: 18px;
+  height: 48px;
+  width: 290px;
+  border-radius: 50px;
+  border: 1px solid;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.ctn-google:hover {
+  background-color: rgb(149, 149, 149);
+  color: #fafafa;
+  background-color: rgb(149, 149, 149);
+  border: none;
+}
+
+.login-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #222222;
+}
+
+.login-link:hover {
+  color: #ad6b12;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT@72&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT@72&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  margin: 0;
+}
+
+main {
+  background: linear-gradient(
+    119.73deg,
+    #fafafa 27.62%,
+    #fffd92 69.48%,
+    #ffdcad 88.72%
+  );
+  min-height: 100vh; /* At least the full height of the viewport */
+  height: auto;
+}
+
+.hero {
+  display: flex;
+}
+
+h1 {
+  color: #ad6b12;
+  font-family: "Oswald", sans-serif;
+  font-size: 65px;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  color: #696969;
+}
+
+.start-button {
+  text-decoration: none;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background-color: #ad6b12;
+  color: white;
+  border: 1px solid #ad6b12; /* Primary Button Color */
+  box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.295);
+}
+
+.start-button:hover {
+  background-color: #e18f23; /* Darker shade for hover */
+  border-color: #e18f23;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.div-content {
+  padding-top: 18rem;
+  padding-left: 10%;
+}
+.div-img {
+  display: grid;
+  gap: 2rem;
+  padding-top: 30px;
+  padding-left: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-size {
+  width: 320px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 27.09px;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.083);
+  transform: translateY(-2rem) (-translate-y-8);
+}
+
+.img-size-bot {
+  width: 320px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 27.09px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.083);
+}
+
+.img-size-bot-2 {
+  height: 200px;
+}
+
+.img-right {
+  position: relative;
+  top: 150px;
+}
